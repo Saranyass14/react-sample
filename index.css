@@ -1,0 +1,37 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #000;
+}
+.logo{
+    width: 300px;
+}
+.nav-items>ul{
+    display: flex;
+    list-style-type: none;
+}
+.nav-items>ul>li{
+    padding: 10px;
+    margin: 10px;
+}
+.search{
+    padding: 20px 0px ;
+}
+.Resto-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.res-card{
+    padding:5px;
+    width: 200px;
+    margin: 5px;
+    border: 1px solid #000;
+    background: #f0f0f0;
+}
+.res-logo{
+    width: 100%;
+}
+.normal-text{
+    font-size: 14px;
+    font-weight: 400;
+}
